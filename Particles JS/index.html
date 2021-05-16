@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particles JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="on" id="butt">
+        <span>Particles JS</span>
+        <button onclick="start()">
+            Запустить
+        </button>
+    </div>
+    <div id="inputDiv" class="inputOff">
+        <span>цвет канваса</span>
+        <input type="color" id="input1">
+        <span>цвет частиц</span>
+        <input type="color" id="input2">
+        <span>радиус частиц</span>
+        <input type="range" id="input3" min="1" max="10">
+        <span>ширина линии</span>
+        <input type="range" id="input4" min="1" max="10">
+        <span>скорость частиц</span>
+        <input type="range" id="input5" min="1" max="10">
+        <span>дистанция между частицами</span>
+        <input type="range" id="input6" min="30" max="150">
+        <button onclick="menu()"><b>Меню</b></button>
+    </div>
+    <div id="particles" class="pOff">
+        <span>количество частиц</span>
+        <div>
+            <span>10</span>
+            <input type="range" id="input7" min="10" max="80">
+            <span>80</span>
+        </div>
+        <span style="font-size: 10pt;">установите количество частиц<br>чтобы начать*</span>
+    </div>
+    <canvas></canvas>
+</body>
+<script src="main.js"></script>
+</html>

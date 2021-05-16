@@ -1,0 +1,155 @@
+html, body{
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas{
+    background-color: #ff4848;
+}
+
+.on{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 0px 59px -17px rgba(0,0,0,0.89);
+}
+
+.off{
+    display: none;
+}
+
+.on button{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(43, 85, 109);
+    color: white;
+    border: 0;
+    font-size: 20pt;
+    transition: .3s;
+}
+
+.on button:hover{
+    cursor: pointer;
+    background-color: #ff4848;
+    color: rgb(34, 34, 34);
+    border: 0;
+}
+
+input{
+    width: 80px;
+    border: 0;
+    background-color: darkslategray;
+}
+
+.inputOn{
+    width: 200px;
+    height: 0;
+    display: none;
+    color: rgb(190, 189, 190);
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 59px -17px rgba(0,0,0,0.89);
+    position: absolute;
+    top: -100px;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    transition: all .5s;
+}
+
+.inputOff{
+    display: none;
+}
+
+.pOff{
+    display: none;
+}
+
+.pOn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(190, 189, 190);
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 59px -17px rgba(0,0,0,0.89);
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pOn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputOn button{
+    box-sizing: border-box;
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(43, 85, 109);
+    color: white;
+    border: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 16pt;
+    transition:all .3s;
+}
+
+.inputOn button:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+    color: rgb(34, 34, 34);
+    border: 0;
+}
+
+.inputOn1{
+    width: 200px;
+    height: 400px;
+    color: rgb(190, 189, 190);
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 59px -17px rgba(0,0,0,0.89);
+    position: absolute;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    transition: all .5s;
+}
+
+.inputOn1 button{
+    box-sizing: border-box;
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(43, 85, 109);
+    color: white;
+    border: 0;
+    font-size: 16pt;
+    transition:all .3s;
+}
+
+.inputOn1 button:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+    color: rgb(34, 34, 34);
+    border: 0;
+}
